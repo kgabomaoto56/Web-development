@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Mn designs</title>
+    <link rel="stylesheet" href="stlyesheets/mn.css">
+</head>
+<body>
+    <header class="navbar">
+        <!-- Unified Logo Wrapper -->
+        <a href="index.html" class="logo-container">
+            
+            <span class="logo-text">Mn designs</span>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="product.html" class="active">Shop</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="shop-container">
+        <aside class="filters">
+            <h3>Filter By</h3>
+            <button class="filter-btn active" data-filter="all">All Items</button>
+            <button class="filter-btn" data-filter="apparel">Apparel</button>
+            <button class="filter-btn" data-filter="accessories">Accessories</button>
+        </aside>
+
+        <section class="products-section">
+            <h2>Our Collection</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="apparel">
+                    <div class="product-image-wrapper">
+                        <img src="images/shirt.png" alt="Classic Boxy Tee" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h4>Classic Boxy Tee</h4>
+                        <p class="price">R 450.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="apparel">
+                    <div class="product-image-wrapper">
+                        <img src="images/trouser.png" alt="Tailored Trousers" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h4>Tailored Trousers</h4>
+                        <p class="price">R 890.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image-wrapper">
+                        <img src="images/bag.png" alt="Minimalist Tote Bag" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h4>Minimalist Tote Bag</h4>
+                        <p class="price">R 350.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image-wrapper">
+                        <img src="images/cap.png" alt="Signature Cap" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h4>Signature Cap</h4>
+                        <p class="price">R 280.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mn designs. All rights reserved.</p>
+    </footer>
+
+    <!-- Cleaned up double script tags, referencing your new custom path -->
+    <script src="javascript/mn.js"></script>
+</body>
+</html>

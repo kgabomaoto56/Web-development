@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Enquiry - Mn designs</title>
+    <link rel="stylesheet" href="stlyesheets/mn.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Mn designs</div>
+       
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Shop</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about_us.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-section">
+        <div class="form-container">
+            <h2>Product Enquiry</h2>
+            <p>Interested in bulk orders, custom sizing, or stock availability? Let us know.</p>
+            <form id="enquiryForm">
+                <div class="form-group">
+                    <label for="enquiryName">Full Name</label>
+                    <input type="text" id="enquiryName" required>
+                </div>
+                <div class="form-group">
+                    <label for="enquiryEmail">Email Address</label>
+                    <input type="email" id="enquiryEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="productSelect">Product of Interest</label>
+                    <select id="productSelect" required>
+                        <option value="">Select a product...</option>
+                        <option value="boxy-tee">Classic Boxy Tee</option>
+                        <option value="trousers">Tailored Trousers</option>
+                        <option value="tote">Minimalist Tote Bag</option>
+                        <option value="cap">Signature Cap</option>
+                        <option value="other">Other / Custom Request</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="enquiryMessage">Your Message</label>
+                    <textarea id="enquiryMessage" rows="5" placeholder="Please provide specific sizing details or bulk quantities required..." required></textarea>
+                </div>
+                <button type="submit" class="btn block-btn">Submit Enquiry</button>
+            </form>
+            <div id="enquiryFeedback" class="form-feedback hidden"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mn designs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
