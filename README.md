@@ -1,26 +1,53 @@
-# Web-development
-Fashion website
-### Added
-- Integrated responsive dual Google Maps embeds on the `contact.html` page (Street View reference and storefront location map).
-- Implemented clean `.map-container` wrappers in CSS to replace fixed pixel heights with responsive flexible scaling.
-- Appended high-quality custom image directories (`images/tee.png`, `images/trouser.png`, `images/tote-bag.png`, `images/cap.png`) directly onto product layouts.
+Project Overview
+Moloko and Naledi Fashion Designs is a hypothetical
+Pretoria-based fashion label specialising in contemporary
+Afrocentric clothing that fuses traditional Sepedi and
+Ndebele patterns with modern silhouettes. Founded by
+two young designers, the brand currently sells via
+Instagram and pop-up markets, limiting scalability and
+brand credibility. This project proposes a dedicated e-
+commerce website to establish a professional online
+storefront, expand the customer base beyond Gauteng,
+and position the brand as a leader in South African luxury
+streetwear (South African Cultural Observatory, 2024).
 
-# Fixed
-- Resolved unclosed structural `</div>` syntax error inside `contact.html` which previously broke layout styling blocks.
-- Swapped out raw text headers with unified graphical `.logo-container` link wrappers featuring `images/logo.png` scaled elegantly alongside brand font tracks.
-- Stripped away historical text-based product placeholders to make full layout paths clean for asset loading.
+Website Goals and Objectives
+The primary goal is to generate R50,000 in monthly online
+sales within 6 months of launch. Key objectives include:
+convert 3% of site visitors into buyers through a
+frictionless checkout, grow the email list to 5,000
+subscribers for direct marketing, and reduce reliance on
+third-party platforms that charge up to 15% commission
+(BusinessTech, 2025). The site must be mobile-first and
+load in under 3 seconds, as 82% of fashion shoppers in
+SA browse on mobile (Statista, 2025).
 
-#Added
-- Created `about.html` profiling the local brand craftsmanship philosophy native to Pretoria, Gauteng.
-- Linked global navigation headers dynamically across all subplanes to accommodate the new organizational "About" directory node.
-- Added smooth image transformations (`transform: scale(1.05)`) onto shop layout sheets for a luxury feel when interactive cards track a pointer focus.
+Key Features and Functionality
+Core features include a _Lookbook Gallery_ with high-res
+lifestyle photography, a _Product Catalogue_ with size
+guides, fabric info, and ZAR pricing, and a _Secure
+Checkout_ with PayFast, Ozow, and card payments. A
+_Custom Orders_ form will allow clients to request
+bespoke pieces, while a _Brand Story_ page will share the
+founders’ heritage and design philosophy. Additional
+functionality includes customer reviews, size-filtering,
+WhatsApp integration for support, and an Instagram feed
+embed to leverage existing social proof.
 
-### Changed
-- Migrated default code architecture files into production-ready file directories (`stlyesheets/mn.css` and `javascript/mn.js`).
+Design Aesthetic and Branding
 
-### Added
-- Initial build rollout of core platform files containing `index.html`, `product.html`, `enquiry.html`, and `contact.html`.
-- Formulated uniform brand guidelines deploying minimalist design properties (structured dark gray shades, pure whites, and accent gold features `#b59410`).
-- Implemented `javascript/mn.js` parsing rules to run category product item filters without page reloads.
-- Scripted custom validation intercept rules for text entry forms on `contact.html` and `enquiry.html` with explicit dynamic user confirmation alerts.
-- Configured media queries for optimal structural rendering across global smartphone
+Colour Scheme: Rich ochre #CC7722 inspired by
+traditional clay, deep indigo #2C3E50 for contrast, and off-
+white #FAF9F6 for balance. Typography: Aptos for body
+text per the brief, paired with Cinzel for headings to
+convey craft and heritage. Layout: Editorial-style with full-
+bleed images, ample white space, and asymmetrical grids
+to feel high-fashion yet accessible. Micro-interactions on
+hover will mimic fabric movement.
+
+Technical Requirements
+Built with HTML5, CSS3, and JavaScript for Part 1. No e-
+commerce functionality yet, but structure will allow Shopify
+or WooCommerce integration in Part 3. Hosted on GitHub
+Pages initially. Domain `molokoandnaledi.co.za` at
+R150/year via xneelo. 
